@@ -1,4 +1,12 @@
+%If you find this work useful, please consider a donation:
+%https://www.paypal.me/RodyO/3.5
 
+% If you would like to cite this work, please use the following template:
+%
+% Rody Oldenhuis, orcid.org/0000-0002-3162-3660. "BoltzmannMaxwell" version
+% <version>, <date you last used it>. MATLAB toolkit for working with the 
+% Boltzmann-Maxwell distribution. 
+% https://nl.mathworks.com/matlabcentral/fileexchange/<address>
 function varargout = BoltzmannMaxwell(m, T, v, do_plot)
     
     if nargin < 4
